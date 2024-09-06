@@ -69,7 +69,6 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ghcr.io/${{ github.repository }}/janus
             vedeht/janus
           tags: |
             type=schedule
